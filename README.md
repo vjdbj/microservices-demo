@@ -5,3 +5,5 @@ How are these Microservices connect to each other:
 ![image](https://github.com/vjdbj/microservices-demo/assets/83549768/9e40989e-e0c1-48a3-9418-be4ac8d1fff0)
 *Cart Microservice actually need redis [Memory database] to store some data.   
 
+Load Generator Microservice is actually optional deployment, so we don't need to deploy it in the cluster. It only serves a purpose to basically test the load on our application.  
+
